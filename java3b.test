@@ -185,8 +185,41 @@ Statement
 
 @Question
 Что произойдет при попытке вызвать interrupt() у потока, находящемся в состоянии sleep?
-@Options @OnlyOne @Key=1 <?>
-флаг interrupted изменит свое значение на true
+@Options @OnlyOne @Key= <?>
+- флаг interrupted изменит свое значение на true
 флаг interrupted  не изменит своего значения
 поток завершит свое выполнение
 будет выброшено InterruptedException
+
+@Question
+Сколько уровней логирования (включая OFF и ALL) есть в java.util.logging?
+@Options @OnlyOne @Key= 3
+- 5
+7
+9
+4
+8
+
+@Question
+Какой класс не входит в пакет java.lang.reflect?
+@Options @OnlyOne @Key= <?>
+- Field
+
+@Question
+Можно ли использовать один поток (Stream из пакета java.io) для записи и чтения данных?
+@Options @OnlyOne @Key=2
+- да
+нет
+
+@Question
+Что произойдет при неудачной попытке создания каталога с помощью метода mkdir() ?
+@Options @OnlyOne @Key=1
+false
+- будет брошено IOException
+
+@Question
+Какой класс или интерфейс может вернуть объект типа DatabaseMetaData?
+@Options @OnlyOne @Key=2 <?>
+- DriverManager
+java.sql
+

@@ -17,7 +17,7 @@ HashMap допускает в качестве ключа использоват
 
 @Question
 Обязательно ли классу реализовывать интерфейс Comparable, чтобы его можно было использовать в TreeSet?
-@Options @OnlyOne @Key=2 <?>
+@Options @OnlyOne @Key=1
 нет
 да
 

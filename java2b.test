@@ -273,8 +273,8 @@ ArrayList - синхронизирован, Vector - не синхронизир
 
 @Question
 Какие модификаторы доступа можно использовать для внешнего класса?
-@Options @OnlyOne @Key=3
+@Options @OnlyOne @Key=4 <?>
 public, default
 default, protected, public
-public, private
+ - public, private
 public, protected

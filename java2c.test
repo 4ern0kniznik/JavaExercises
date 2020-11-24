@@ -283,6 +283,6 @@ public static void main(String[] args){
 
 @Question
 Утверждение: внешний класс имеет доступ ко всем полям и методам внутреннего класса
-@Options @OnlyOne @Key=1
-верно
+@Options @OnlyOne @Key=2
+- верно
 не верно

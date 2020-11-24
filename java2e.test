@@ -60,3 +60,9 @@ RuntimeException - unchecked, Exception - checked
 @Options @OnlyOne @Key=1
 нет
 да
+
+@Question
+Задан объект ArrayList<String> arrayList = new ArrayList<>(Arrays.asList("A", "B", "C", "A")); Что произойдет при выполнении метода arrayList.remove("A");
+@Options @OnlyOne @Key=<?>
+ - будет удален случайный элемент коллекции, который равен значению "A"
+

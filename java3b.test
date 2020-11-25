@@ -228,3 +228,14 @@ java.sql
 @Options @OnlyOne @Key=2 <?>
 - INSERT
 Join
+
+@Question
+Как называется абстрактный базовый класс для чтения потоков данных в символьном представлении?
+@Options @OnlyOne @Key=1 <?>
+FileReader
+
+@Question
+Имеется переменная volatile int count=0; Будет ли инструкция count++ атомарной?
+@Options @OnlyOne @Key=1 
+нет
+да

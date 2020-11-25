@@ -223,3 +223,8 @@ false
 - DriverManager
 java.sql
 
+@Question
+Что не относится к CRUD операциям?
+@Options @OnlyOne @Key=2 <?>
+- INSERT
+Join
